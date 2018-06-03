@@ -5,8 +5,8 @@
   "private": true,
   "main": "dist/server.js",
   "scripts": {
-    "build": "./node_modules/.bin/tsc",
-    "run-server": "node ./dist/server/server.js",
+    "build": "./node_modules/.bin/tsc --rootDir ./src",
+    "run-server": "node ./dist/server/start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexandr Shevchenko [Shov]",
