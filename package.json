@@ -1,0 +1,23 @@
+{
+  "name": "beword",
+  "version": "1.0.0",
+  "description": "game about letters in looped field",
+  "private": true,
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "run-server": "node ./dist/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Shevchenko [Shov]",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ws": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/ws": "^5.1.1",
+    "typescript": "^2.9.1"
+  }
+}
